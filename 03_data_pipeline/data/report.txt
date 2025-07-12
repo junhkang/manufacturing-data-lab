@@ -1,0 +1,4 @@
+Quality Diagnosis Report
+======================
+OK: 293 items
+NG: 121 items
