@@ -44,7 +44,9 @@ echo -e "AIRFLOW_UID=$(id -u)" > .env
 
 ```bash
 cp -r ~/quality_diagnosis_pipeline/dags/* ./dags/
+cp -r ~/quality_diagnosis_pipeline/data/* ./data/
 cp -r ~/quality_diagnosis_pipeline/scripts ./dags/scripts
+
 ```
 
 ---
