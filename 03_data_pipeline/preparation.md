@@ -37,7 +37,7 @@ curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.7.3/docker-compose.y
 ```bash
 cp .env.example .env
 mkdir -p ./dags ./logs ./plugins
-echo -e "AIRFLOW_UID=$(id -u)" >> .env
+echo -e "AIRFLOW_UID=$(id -u)" > .env
 ```
 
 ### 1-3. 실습용 DAG 및 스크립트 연결
